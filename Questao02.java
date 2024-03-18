@@ -11,13 +11,13 @@
         Scanner scanner = new Scanner(System.in);
         double nota1, nota2, nota3, media;
 
-        System.out.println("Digite o primeiro numero: ");
+        System.out.println("Digite nota1: ");
         nota1 = scanner.nextDouble();
 
-        System.out.println("Digite o segundo numero: ");
+        System.out.println("Digite nota2: ");
         nota2 = scanner.nextDouble();
 
-        System.out.println("Digite o segundo numero: ");
+        System.out.println("Digite nota3: ");
         nota3 = scanner.nextDouble();
 
         media = (nota1+nota2+nota3)/3;
@@ -28,8 +28,6 @@
         } else {
             System.out.printf("Aluno Reprovado: %.2f", media );
         }
-
-
+        scanner.close();
     }
-
  }
